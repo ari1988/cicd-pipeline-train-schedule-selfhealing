@@ -38,6 +38,6 @@ spec:
           httpGet:
             path: /
             port: 8080
-          initDelaySeconds: 15
+          initialDelaySeconds: 15
           timeoutSeconds: 1
           periodSeconds: 10
